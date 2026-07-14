@@ -270,6 +270,31 @@ h2 {
   text-decoration: none;
 }
 
+.primary-link,
+.secondary-link,
+.footer-support-link {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.primary-link:hover,
+.secondary-link:hover,
+.footer-support-link:hover {
+  box-shadow: 0 10px 22px rgba(58, 122, 254, 0.18);
+  transform: translateY(-1px);
+}
+
+.primary-link:active,
+.secondary-link:active,
+.footer-support-link:active {
+  box-shadow: 0 6px 14px rgba(58, 122, 254, 0.14);
+  transform: translateY(0);
+}
+
 .primary-link {
   color: #ffffff;
   background: var(--blue);
