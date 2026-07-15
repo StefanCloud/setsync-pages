@@ -100,15 +100,12 @@ a:focus-visible {
 }
 
 .brand-mark {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border-radius: 11px;
-  color: #ffffff;
-  background: var(--blue);
-  box-shadow: 0 8px 18px rgba(58, 122, 254, 0.25);
-  font-size: 17px;
+  display: block;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 30px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 14px rgba(58, 122, 254, 0.22));
 }
 
 .site-nav {
@@ -386,9 +383,8 @@ h2 {
   }
 
   .brand-mark {
-    width: 31px;
-    height: 31px;
-    border-radius: 10px;
+    width: 44px;
+    height: 28px;
   }
 
   .site-nav a {
